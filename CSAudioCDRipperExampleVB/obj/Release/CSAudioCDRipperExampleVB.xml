@@ -1,0 +1,128 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CSAudioCDRipperExampleVB
+</name>
+</assembly>
+<members>
+<member name="T:CSAudioCDRipperExampleVB.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CSAudioCDRipperExampleVB.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CSAudioCDRipperExampleVB.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.LoadCDTracks">
+ <summary>
+ Load the CD tracks to the list view.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.SetDestinationFileName">
+ <summary>
+ Set the destination file. This example use the default music folder of Windows:
+ </summary>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.cboDestinationFormat_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ When selecting the ACM WAV format, display the ACM Tags and Formats.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.cboACMTags_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Get ACM formats according to the selected tag.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.btnOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open the CD door.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.btnClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ Close the CD door.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.cmdLoadFreeDB_Click(System.Object,System.EventArgs)">
+ <summary>
+ Load the FreeDB information using the events.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.cmdLoadFreeDBAsync_Click(System.Object,System.EventArgs)">
+ <summary>
+ Load the FreeDB information in async mode.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.cmdPause_Click(System.Object,System.EventArgs)">
+ <summary>
+ Pause the operation.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.cmdResume_Click(System.Object,System.EventArgs)">
+ <summary>
+ Resume the operation.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.cmdCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancel the operation.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.cmdPlayWithDefaultPlayer_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open the destination multimedia file with the default multimedia player of the system.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.cmdOpenFileLocation_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open the directory of the destination multimedia file with the WIndows Explorer.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.frmAudioCDRipper_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+ <summary>
+ Safe exit.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDRipperExampleVB.frmAudioCDRipper.cmdCheckLicense_Click(System.Object,System.EventArgs)">
+ <summary>
+ Check the license.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
