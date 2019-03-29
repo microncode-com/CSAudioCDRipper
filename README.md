@@ -47,6 +47,11 @@ The CSAudioCDRipper is a .NET component that can rip an Audio CD using the C# VB
 - Licensed under the MS-PL.
 - Can be used in commercial products.
 
+# Background
+This component uses some external libraries / plugins in the background:
+- [CSCore](https://github.com/filoe/cscore)
+- [TagLib#](https://github.com/mono/taglib-sharp)
+
 # FREE Usage
 This component can be use for FREE for personal or free usage. Just add the following details to the username and the regkey in the form_load event:
 
