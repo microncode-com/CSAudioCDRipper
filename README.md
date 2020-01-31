@@ -1,7 +1,7 @@
 # CSAudioCDRipper
 .NET component to rip the Audio CD tracks with FreeDB and ID3 tags support.
 
-![alt CSAudioCDRipper](https://www.microncode.com/developers/cs-audio-cd-ripper/images/cs-audio-cd-ripper.png "CSAudioCDRipper")
+![alt CSAudioCDRipper](https://www.microncode.com/images/developers/cs-audio-cd-ripper/images/cs-audio-cd-ripper.png "CSAudioCDRipper")
 
 # About
 The CSAudioCDRipper is a .NET component that can rip an Audio CD using the C# VB .NET platform to AAC, APE, MP2, MP3, Vorbis OGG, ACM WAV, PCM WAV and WMA audio files, with built in FreeDB control and ID3 tags editor.
